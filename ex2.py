@@ -31,6 +31,7 @@ def calc_min_max_temperature(list):
 
     print("Maximum:", max_value)
     print("Minimum:", min_value)
+    return (min_value, max_value)
 
 def calc_median_temperature(temp_list):
     n = len(temp_list)
